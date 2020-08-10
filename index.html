@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop animation on resize</title>
+    <style>
+        h1 {
+            font-size: 24px;
+            transition: font-size .4s ease-in-out;
+        }
+
+        @media (min-width: 1200px) {
+            h1 {
+                font-size: 40px;            
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Анимационный текст</h1>
+
+    <script src="animation_stopper.min"></script>
+    <script>
+        window.addEventListener('load', function () {
+            initAnimationStopper();
+        });
+    </script>
+</body>
+
+</html>
