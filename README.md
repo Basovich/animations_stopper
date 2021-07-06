@@ -1,4 +1,4 @@
-# animatio_stopper
+# animation_stopper
 Stop animation on resize
 
 Импортируем в файл по примеру:
